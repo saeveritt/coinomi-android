@@ -24,7 +24,7 @@ public class PeercoinMain extends PeerFamily {
         minNonDust = value(10000); // 0.01PPC
         softDustLimit = minNonDust;
         softDustPolicy = SoftDustPolicy.NO_POLICY;
-        signedMessageHeader = toBytes("PPCoin Signed Message:\n");
+        signedMessageHeader = toBytes("Peercoin Signed Message:\n");
     }
 
     private static PeercoinMain instance = new PeercoinMain();
